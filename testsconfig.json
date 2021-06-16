@@ -1,0 +1,10 @@
+{
+    "chrome": {
+      "wait_time": 10
+    },
+ },
+ {
+    "browser": "ff",
+    "wait_time": 10
+ }
+
