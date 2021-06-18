@@ -8,14 +8,14 @@ def chrome_browser():
     return fixture
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def ff_browser():
     fixture = User_helper(browser='firefox')
     return fixture
 
 
 @pytest.fixture()
-def opera():
+def opera_browser():
     fixture = User_helper(browser='opera')
     return fixture
 
